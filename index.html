@@ -31,30 +31,56 @@
   <!-- All JavaScript at the bottom, except for Modernizr / Respond.
        Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
        For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
-  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+  <!--<script src="js/libs/modernizr-2.0.6.min.js"></script>-->
 </head>
 
 <body>
 
   <div id="container">
     <header>
-
+			<img src="img/logo.png" alt="logo">
+			<img src="img/screenShot.png" alt="">
     </header>
     <div id="main" role="main">
-
+			<div class="signup">
+				<p>Sign up to know when VersaVault goes live</p>
+				<a href="#" class="large orange awesome">Signup now</a>
+				<div class="clearfix"></div>
+			</div>
+			<div class="columns">
+				<div class="firstColumn">
+					<img src="img/upload.png" alt="">
+					<h3>Easy uploads</h3>
+					<p>No more manual uploads, we take care of all that, so that you can focus on creating great documents with out the pain of having to manually upload documents</p>
+				</div>
+				<div class="secondColumn">
+					<img src="img/share.png" alt="">
+					<h3>Easy Sharing</h3>
+					<p>Share with any one, no matter the size of the file. No more emailing large files to people.</p>
+				</div>
+				<div class="thirdColumn">
+					<img src="img/anywhereAccess.png" alt="">
+					<h3>Access from anywhere</h3>
+					<p>Access your files even if you do not have your computer around. Access it from any device from anywhere</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			
     </div>
-    <footer>
-
-    </footer>
+    
   </div> <!--! end of #container -->
-
+	<footer>
+	<div class="arrow"></div>
+		This is some text
+  </footer>
 
   <!-- JavaScript at the bottom for fast page loading -->
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<!--
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-
+	-->
 
   <!-- scripts concatenated and minified via ant build script-->
   <script defer src="js/plugins.js"></script>
@@ -63,13 +89,14 @@
 
 	
   <!-- Change UA-XXXXX-X to be your site's ID -->
+	<!--
   <script>
     window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
       load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
     });
   </script>
-
+	-->
 
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
