@@ -2,7 +2,7 @@
 // ***********************************************
 // Change to the date of your site launch
 // Date format is (Year, Month, Day)
-var launch_date = new Date(2011, 6,17);
+var launch_date = new Date(2012, 4,5);
 var message_delay = 2000;
 
 
